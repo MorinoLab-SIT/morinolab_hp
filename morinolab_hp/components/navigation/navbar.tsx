@@ -50,6 +50,10 @@ export function Navbar() {
     saveScrollPosition();
     if (href === 'publications') {
       router.push('/publications');
+    } else if (href === 'awards') {
+      router.push('/awards');
+    } else if (href === 'career') {
+      router.push('/career');
     } else {
       router.push(`/#${href}`);
       setTimeout(() => window.scrollTo(0, 0), 0);

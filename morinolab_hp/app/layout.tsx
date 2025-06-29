@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   title: 'MorinoLab - Quantum Computing Research',
   description:
     'Pioneering the future of quantum computing through innovative research and cutting-edge technology development.',
+  icons: {
+    icon: '/img/icon.png',
+    apple: '/img/icon.png',
+  },
 };
 
 export default function RootLayout({
